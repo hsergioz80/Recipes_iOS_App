@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		E07A763B2D53DE1000DDD635 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E07A76222D53DE0E00DDD635 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E07A76292D53DE0E00DDD635;
-			remoteInfo = Recipes1;
-		};
-		E07A76452D53DE1100DDD635 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E07A76222D53DE0E00DDD635 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E07A76292D53DE0E00DDD635;
-			remoteInfo = Recipes1;
-		};
 		E07A76692D53E31500DDD635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07A76222D53DE0E00DDD635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07A76292D53DE0E00DDD635;
+			remoteInfo = Recipes1;
+		};
+		E07F2C512D581DD100A10494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07A76222D53DE0E00DDD635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07A76292D53DE0E00DDD635;
+			remoteInfo = Recipes1;
+		};
+		E07F2CA52D582EF400A10494 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E07A76222D53DE0E00DDD635 /* Project object */;
 			proxyType = 1;
@@ -32,9 +32,9 @@
 
 /* Begin PBXFileReference section */
 		E07A762A2D53DE0E00DDD635 /* Recipes1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07A763A2D53DE1000DDD635 /* Recipes1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Recipes1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07A76442D53DE1100DDD635 /* Recipes1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Recipes1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07A76652D53E31500DDD635 /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07F2C4D2D581DD000A10494 /* ImageCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07F2CA12D582EF400A10494 /* ImageCacheTestSetup.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCacheTestSetup.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,13 +45,44 @@
 			);
 			target = E07A76642D53E31500DDD635 /* RecipesTests */;
 		};
+		E07F2CAD2D582F6F00A10494 /* Exceptions for "Recipes1" folder in "ImageCacheTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/ImageCacheTestSetup.swift",
+			);
+			target = E07F2C4C2D581DD000A10494 /* ImageCacheTests */;
+		};
+		E07F2CB32D58329E00A10494 /* Exceptions for "Recipes1" folder in "Recipes1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/ImageCacheTestSetup.swift",
+			);
+			target = E07A76292D53DE0E00DDD635 /* Recipes1 */;
+		};
+		E07F2CBA2D58332500A10494 /* Exceptions for "ImageCacheTests" folder in "ImageCacheTestSetup" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ImageCacheTests.swift,
+			);
+			target = E07F2CA02D582EF400A10494 /* ImageCacheTestSetup */;
+		};
+		E07F2CBD2D5833BA00A10494 /* Exceptions for "Recipes1" folder in "ImageCacheTestSetup" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/ImageCacheTestSetup.swift",
+			);
+			target = E07F2CA02D582EF400A10494 /* ImageCacheTestSetup */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E07A762C2D53DE0E00DDD635 /* Recipes1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				E07F2CB32D58329E00A10494 /* Exceptions for "Recipes1" folder in "Recipes1" target */,
 				E05909202D54067000FFAB6E /* Exceptions for "Recipes1" folder in "RecipesTests" target */,
+				E07F2CAD2D582F6F00A10494 /* Exceptions for "Recipes1" folder in "ImageCacheTests" target */,
+				E07F2CBD2D5833BA00A10494 /* Exceptions for "Recipes1" folder in "ImageCacheTestSetup" target */,
 			);
 			path = Recipes1;
 			sourceTree = "<group>";
@@ -59,6 +90,14 @@
 		E07A76662D53E31500DDD635 /* RecipesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RecipesTests;
+			sourceTree = "<group>";
+		};
+		E07F2C4E2D581DD100A10494 /* ImageCacheTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E07F2CBA2D58332500A10494 /* Exceptions for "ImageCacheTests" folder in "ImageCacheTestSetup" target */,
+			);
+			path = ImageCacheTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -71,21 +110,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E07A76372D53DE1000DDD635 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E07A76412D53DE1100DDD635 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E07A76622D53E31500DDD635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07F2C4A2D581DD000A10494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07F2C9E2D582EF400A10494 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -100,6 +139,7 @@
 			children = (
 				E07A762C2D53DE0E00DDD635 /* Recipes1 */,
 				E07A76662D53E31500DDD635 /* RecipesTests */,
+				E07F2C4E2D581DD100A10494 /* ImageCacheTests */,
 				E07A762B2D53DE0E00DDD635 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,9 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				E07A762A2D53DE0E00DDD635 /* Recipes1.app */,
-				E07A763A2D53DE1000DDD635 /* Recipes1Tests.xctest */,
-				E07A76442D53DE1100DDD635 /* Recipes1UITests.xctest */,
 				E07A76652D53E31500DDD635 /* RecipesTests.xctest */,
+				E07F2C4D2D581DD000A10494 /* ImageCacheTests.xctest */,
+				E07F2CA12D582EF400A10494 /* ImageCacheTestSetup.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,46 +180,6 @@
 			productReference = E07A762A2D53DE0E00DDD635 /* Recipes1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E07A76392D53DE1000DDD635 /* Recipes1Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E07A76512D53DE1100DDD635 /* Build configuration list for PBXNativeTarget "Recipes1Tests" */;
-			buildPhases = (
-				E07A76362D53DE1000DDD635 /* Sources */,
-				E07A76372D53DE1000DDD635 /* Frameworks */,
-				E07A76382D53DE1000DDD635 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E07A763C2D53DE1000DDD635 /* PBXTargetDependency */,
-			);
-			name = Recipes1Tests;
-			packageProductDependencies = (
-			);
-			productName = Recipes1Tests;
-			productReference = E07A763A2D53DE1000DDD635 /* Recipes1Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E07A76432D53DE1100DDD635 /* Recipes1UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E07A76542D53DE1100DDD635 /* Build configuration list for PBXNativeTarget "Recipes1UITests" */;
-			buildPhases = (
-				E07A76402D53DE1100DDD635 /* Sources */,
-				E07A76412D53DE1100DDD635 /* Frameworks */,
-				E07A76422D53DE1100DDD635 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E07A76462D53DE1100DDD635 /* PBXTargetDependency */,
-			);
-			name = Recipes1UITests;
-			packageProductDependencies = (
-			);
-			productName = Recipes1UITests;
-			productReference = E07A76442D53DE1100DDD635 /* Recipes1UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		E07A76642D53E31500DDD635 /* RecipesTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E07A766B2D53E31500DDD635 /* Build configuration list for PBXNativeTarget "RecipesTests" */;
@@ -203,6 +203,49 @@
 			productReference = E07A76652D53E31500DDD635 /* RecipesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E07F2C4C2D581DD000A10494 /* ImageCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07F2C532D581DD100A10494 /* Build configuration list for PBXNativeTarget "ImageCacheTests" */;
+			buildPhases = (
+				E07F2C492D581DD000A10494 /* Sources */,
+				E07F2C4A2D581DD000A10494 /* Frameworks */,
+				E07F2C4B2D581DD000A10494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E07F2C522D581DD100A10494 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E07F2C4E2D581DD100A10494 /* ImageCacheTests */,
+			);
+			name = ImageCacheTests;
+			packageProductDependencies = (
+			);
+			productName = ImageCacheTests;
+			productReference = E07F2C4D2D581DD000A10494 /* ImageCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E07F2CA02D582EF400A10494 /* ImageCacheTestSetup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07F2CA72D582EF400A10494 /* Build configuration list for PBXNativeTarget "ImageCacheTestSetup" */;
+			buildPhases = (
+				E07F2C9D2D582EF400A10494 /* Sources */,
+				E07F2C9E2D582EF400A10494 /* Frameworks */,
+				E07F2C9F2D582EF400A10494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E07F2CA62D582EF400A10494 /* PBXTargetDependency */,
+			);
+			name = ImageCacheTestSetup;
+			packageProductDependencies = (
+			);
+			productName = ImageCacheTestSetup;
+			productReference = E07F2CA12D582EF400A10494 /* ImageCacheTestSetup.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,15 +259,15 @@
 					E07A76292D53DE0E00DDD635 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					E07A76392D53DE1000DDD635 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = E07A76292D53DE0E00DDD635;
-					};
-					E07A76432D53DE1100DDD635 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = E07A76292D53DE0E00DDD635;
-					};
 					E07A76642D53E31500DDD635 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E07A76292D53DE0E00DDD635;
+					};
+					E07F2C4C2D581DD000A10494 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E07A76292D53DE0E00DDD635;
+					};
+					E07F2CA02D582EF400A10494 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = E07A76292D53DE0E00DDD635;
 					};
@@ -245,9 +288,9 @@
 			projectRoot = "";
 			targets = (
 				E07A76292D53DE0E00DDD635 /* Recipes1 */,
-				E07A76392D53DE1000DDD635 /* Recipes1Tests */,
-				E07A76432D53DE1100DDD635 /* Recipes1UITests */,
 				E07A76642D53E31500DDD635 /* RecipesTests */,
+				E07F2C4C2D581DD000A10494 /* ImageCacheTests */,
+				E07F2CA02D582EF400A10494 /* ImageCacheTestSetup */,
 			);
 		};
 /* End PBXProject section */
@@ -260,21 +303,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E07A76382D53DE1000DDD635 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E07A76422D53DE1100DDD635 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E07A76632D53E31500DDD635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07F2C4B2D581DD000A10494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07F2C9F2D582EF400A10494 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,21 +334,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E07A76362D53DE1000DDD635 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E07A76402D53DE1100DDD635 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E07A76612D53E31500DDD635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07F2C492D581DD000A10494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07F2C9D2D582EF400A10494 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,20 +358,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E07A763C2D53DE1000DDD635 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E07A76292D53DE0E00DDD635 /* Recipes1 */;
-			targetProxy = E07A763B2D53DE1000DDD635 /* PBXContainerItemProxy */;
-		};
-		E07A76462D53DE1100DDD635 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E07A76292D53DE0E00DDD635 /* Recipes1 */;
-			targetProxy = E07A76452D53DE1100DDD635 /* PBXContainerItemProxy */;
-		};
 		E07A766A2D53E31500DDD635 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E07A76292D53DE0E00DDD635 /* Recipes1 */;
 			targetProxy = E07A76692D53E31500DDD635 /* PBXContainerItemProxy */;
+		};
+		E07F2C522D581DD100A10494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07A76292D53DE0E00DDD635 /* Recipes1 */;
+			targetProxy = E07F2C512D581DD100A10494 /* PBXContainerItemProxy */;
+		};
+		E07F2CA62D582EF400A10494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07A76292D53DE0E00DDD635 /* Recipes1 */;
+			targetProxy = E07F2CA52D582EF400A10494 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -468,6 +511,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +519,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.Recipes1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,6 +545,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -504,81 +553,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.Recipes1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E07A76522D53DE1100DDD635 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z223CPX69S;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.Recipes1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes1";
-			};
-			name = Debug;
-		};
-		E07A76532D53DE1100DDD635 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z223CPX69S;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.Recipes1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes1";
-			};
-			name = Release;
-		};
-		E07A76552D53DE1100DDD635 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z223CPX69S;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.Recipes1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Recipes1;
-			};
-			name = Debug;
-		};
-		E07A76562D53DE1100DDD635 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z223CPX69S;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.Recipes1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Recipes1;
 			};
 			name = Release;
 		};
@@ -593,9 +574,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.RecipesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes1";
 			};
 			name = Debug;
@@ -610,6 +595,82 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.RecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes1";
+			};
+			name = Release;
+		};
+		E07F2C542D581DD100A10494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z223CPX69S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.ImageCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes1";
+			};
+			name = Debug;
+		};
+		E07F2C552D581DD100A10494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z223CPX69S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.ImageCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes1";
+			};
+			name = Release;
+		};
+		E07F2CA82D582EF400A10494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z223CPX69S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.ImageCacheTestSetup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipes1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipes1";
+			};
+			name = Debug;
+		};
+		E07F2CA92D582EF400A10494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z223CPX69S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiohernandez.ImageCacheTestSetup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -639,29 +700,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E07A76512D53DE1100DDD635 /* Build configuration list for PBXNativeTarget "Recipes1Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E07A76522D53DE1100DDD635 /* Debug */,
-				E07A76532D53DE1100DDD635 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E07A76542D53DE1100DDD635 /* Build configuration list for PBXNativeTarget "Recipes1UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E07A76552D53DE1100DDD635 /* Debug */,
-				E07A76562D53DE1100DDD635 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E07A766B2D53E31500DDD635 /* Build configuration list for PBXNativeTarget "RecipesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E07A766C2D53E31500DDD635 /* Debug */,
 				E07A766D2D53E31500DDD635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07F2C532D581DD100A10494 /* Build configuration list for PBXNativeTarget "ImageCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07F2C542D581DD100A10494 /* Debug */,
+				E07F2C552D581DD100A10494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07F2CA72D582EF400A10494 /* Build configuration list for PBXNativeTarget "ImageCacheTestSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07F2CA82D582EF400A10494 /* Debug */,
+				E07F2CA92D582EF400A10494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

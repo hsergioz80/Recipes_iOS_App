@@ -9,6 +9,7 @@ import Foundation
 
 class RecipeClient {
     
+    //initializes an array of Recipes from the retrived data according to Recipes data structure
     var recipes: Recipes{
         get async throws{
             let data = try await downloader.httpData(from: feedURL)
@@ -17,11 +18,13 @@ class RecipeClient {
         }
     }
     
+    //assigning decoder to decode JSON structure
     private lazy var decoder: JSONDecoder = {
         let aDecoder = JSONDecoder()
         return aDecoder
     }()
     
+    //URL that data is being fetched from
     private let feedURL = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes.json")!
     
     private let downloader: any HTTPDataDownloader

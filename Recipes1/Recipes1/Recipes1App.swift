@@ -10,10 +10,12 @@ import SwiftUI
 @main
 struct Recipes1App: App {
     @StateObject var recipesProvider = RecipesProvider()
+    @StateObject var imagesProvider = ImagesProvider()
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(recipesProvider)
+                .environmentObject(imagesProvider)
         }
     }
 }

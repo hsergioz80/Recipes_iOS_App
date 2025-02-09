@@ -8,7 +8,7 @@
 import Foundation
 
 struct Recipes: Decodable {
-    let recipes: [Recipe]
+    var recipes: [Recipe]
 }
 struct Recipe{
     let cuisine: String
@@ -41,7 +41,7 @@ extension Recipe: Decodable{
               let name = rawName,
               let uuid = rawUUID,
               let photoURLLarge = rawPhotoURLLarge
-                else {
+        else {
             throw RecipeError.missingData
         }
         
