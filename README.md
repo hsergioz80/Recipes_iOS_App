@@ -22,7 +22,7 @@ Implementation of Image Caching = 1.5Hr
 Code Refactoring = .5Hr
 Researching Information Online 2hrs
 
-Trade offs: I made a significant trade-off to optimize for time by consolidating all functions related to image caching into a single file. This allowed me to streamline the process and focus on the core functionality.
+Trade offs: I made a deliberate trade-off to optimize for readability by consolidating all image caching functions into a single file. The decision to store large images only on disk, rather than both in memory and on disk, was intentional. I believed that larger images would better showcase the food, improving the user experience, even though they consume more memory and load slower. The benefits of clearer, more detailed images far outweighed the negligible increase in load time.
 
 Weakest Part of the Project: The weakest part of my project is the time it took me to complete it. Initially, I implemented image caching using URLCache, which was working well, but I wasn't sure if it met the restriction of not using URLSession's HTTP caching, so I switched to using FileManager instead. Additionally, I didn't implement a function to delete cached images when refreshing. While this didn’t impact the overall functionality, it’s something I would refine for a more robust solution. Lastly my unit tests could have tested for more scenarios.
 
